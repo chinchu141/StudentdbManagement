@@ -23,7 +23,7 @@ public class StudentDaoImplements implements StudentDao {
 	public int addStudent(Student students) throws SQLException {
 		int result = 0;
 		String name = "name";//add new string
-		String age="";
+		String age = "age";
 		boolean isTransactionSuccess = false;
 		try {
 			con = new DbConnector().getConnection();
