@@ -16,7 +16,7 @@ public class StudentController {
 		StudentService studentService = new StudentServiceImplements();
 		Student student;
 		while(true) {
-			System.out.println("\n\n		--LIST OF OPTIONS--   ");
+			System.out.println("\n\n		-- Select LIST OF OPTIONS--   ");
 			System.out.println("		1. Insert Student ");
 			System.out.println("		2. Delete student by id");
 			System.out.println("		3. Print all student info");
