@@ -22,6 +22,7 @@ public class StudentDaoImplements implements StudentDao {
 	@Override
 	public int addStudent(Student students) throws SQLException {
 		int result = 0;
+		String name = "name";//add new string
 		boolean isTransactionSuccess = false;
 		try {
 			con = new DbConnector().getConnection();
